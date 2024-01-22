@@ -7,12 +7,12 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
-      <form action="post">
+      <form method="POST" action="/form">
         <label for="user_name">Name:</label>
         <input type="text" id="user_name" name="user_name">
         <label for="message">Message:</label>
         <textarea id="message" name="message"></textarea>
-        <input type="submit" value="Submit">
+        <button>Submit</button>
       </form>
     <p><a href="/" role = "button">Go back to message board</a></p>
   </body>
