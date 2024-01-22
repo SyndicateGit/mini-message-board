@@ -1,8 +1,9 @@
 # Project Name 
 Mini Message Board
 
-Learning project for learning express and mongoDB/mongoose.
-Post message on a message board with account name shown. Performs simple CRUD operations to mongoDB through Mongoose API. 
+Learning project for learning express.
+Post message on a message board with account name shown. 
+Utilizes express and EJS view engine.
 
 ## Table of Contents
 
